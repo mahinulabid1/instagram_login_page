@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
 .d-flex{
     display: flex;
 }
@@ -112,4 +115,17 @@ input[type="submit"]{
     height: 1px;
     background: rgb(196, 196, 196);
     width: 100%;
+}
+
+.login-with-facebook , .forgot-password{
+    color: #385185;
+    
+}
+
+.login-with-facebook{
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
