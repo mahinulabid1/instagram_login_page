@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    background: #fafafa;
+}
+.flex-main-section-container{
+    max-width: 935px;
+    margin: 32px auto 0;
+    /* background: yellowgreen; */
+    height:780px;
+}
+.image-section{
+    background: url("../img/bg.png");
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.flex-main-item{
+    width: 50%;
+}
+.image-slider-container{
+    height: 538.84px;
+    width: 250px;
+    /* background-color: red; */
+    position: absolute;
+    top: 99px;
+    left: 157px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* ======LOGIN FORM========== */
+.form-header{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    
+}
+.logo-container{
+    padding: 32px 0 12px 0;
+}
+.log-in-form{
+    width: 340px;
+    background: white;
+    padding: 20px 40px;
+}
+.logo-img{
+    margin: 0 auto;
+    display: block;
+}
+
+input:first-of-type{
+    margin-top: 20px;
+}
+
+input{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    font-size: 12px;
+    padding: 10px 5px;
+    display: block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+}
+input[type="text"]{
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:#0095f6;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.or{
+    justify-content: space-between;
+}
+.or-flex-item:first-child, .or-flex-item:last-child{
+    width: 40%;
+    background: green;
+    align-self: center;
+}
+.dash{
+    height: 1px;
+    background: rgb(196, 196, 196);
+    width: 100%;
+}
