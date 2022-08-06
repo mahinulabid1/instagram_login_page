@@ -67,6 +67,7 @@ body{
     width: 340px;
     background: white;
     padding: 20px 40px;
+    border: 1px solid rgb(211, 211, 211);
 }
 .logo-img{
     margin: 0 auto;
@@ -119,13 +120,44 @@ input[type="submit"]{
 
 .login-with-facebook , .forgot-password{
     color: #385185;
-    
+    text-align: center;
+    display: block;
+}
+.forgot-password{
+    font-size: 12px;
 }
 
 .login-with-facebook{
     font-weight: 600;
-    display: block;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.dont-have-account{
+    padding: 30px;
+    background: white;
+    width: 340px;
+    margin-top: 30px;
+    border: 1px solid rgb(211, 211, 211);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sign-up-btn{
+    font-weight: 600;
+    color: #3776ff;
+}
+
+.get-app{
+    text-align: center;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.app-store-container{
+    justify-content: center;
+    width: 340px;
+}
+.app-store-container img:first-of-type{
+    margin-right: 10px;
 }
